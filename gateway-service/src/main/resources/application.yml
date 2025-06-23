@@ -4,3 +4,8 @@ server:
 spring:
   application:
     name: gateway-service
+
+jwt:
+  secret: G9vL!dX3y7@rWqz!kBp#NfTz*QvXeRgU1JxL0sYw!HtRuBvMzKsFtWuZoQjLrNdX
+  access-exp: 3600000     # 30min
+  refresh-exp: 1209600000  # 2week
