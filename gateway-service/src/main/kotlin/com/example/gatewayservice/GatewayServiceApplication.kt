@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class GatewayServiceApplication
 
 fun main(args: Array<String>) {
-	runApplication<GatewayServiceApplication>(*args)
+    runApplication<GatewayServiceApplication>(*args)
 }
